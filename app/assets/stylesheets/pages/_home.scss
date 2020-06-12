@@ -1,1 +1,104 @@
 // Specific CSS for your home-page
+#popular {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.45em;
+  margin-bottom: 15px;
+}
+
+// .underline--magical {
+//   background-image: linear-gradient(120deg, #f59e44 0%, #f59e44 100%);
+//   background-repeat: no-repeat;
+//   background-size: 100% 0.2em;
+//   background-position: 0 88%;
+//   transition: background-size 0.25s ease-in;
+//   text-decoration: none;
+//   &:hover {
+//     background-size: 100% 88%;
+//     text-decoration: none;
+//   }
+// }
+
+.nav-item {
+  .nav-link {
+    background-color: transparent;
+    color: black;
+    font-size: 1.25em;
+  }
+
+  .active {
+    background-color: transparent !important;
+    color: black !important;
+    margin-bottom: 3px;
+    border-bottom: 5px solid #f59e44;
+
+  }
+
+}
+
+.item {
+  display: grid;
+  /* Add this when doing the media queries */
+  // justify-content: center;
+  // align-items: center;
+  border-radius: 6px;
+  font-size: 35px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* best colour */
+}
+
+.item p {
+  margin: 0 0 5px 0;
+}
+
+.article-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+  height: 1000px;
+}
+
+
+.item2 {
+  grid-row: span 3;
+}
+
+.item3{
+  grid-row: span 2;
+}
+
+.item7 {
+  grid-row: span 3;
+}
+
+.item5 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.card-content {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+  .recent-cat {
+    font-size: 0.9rem;
+    color: black;
+  }
+
+  .recent-name {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+
+}
+
+
+
+
+

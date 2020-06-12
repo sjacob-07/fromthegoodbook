@@ -28,7 +28,43 @@ import "bootstrap";
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
+// if ('paintWorklet' in CSS) {
+//   CSS.paintWorklet.addModule('packs/highlighter.js');
+//   }
+
+
+
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
 });
+
+let burger = document.getElementById('burger'),
+    nav    = document.getElementById('main-nav'),
+    slowmo = document.getElementById('slowmo');
+
+burger.addEventListener('click', function(e){
+  this.classList.toggle('is-open');
+  nav.classList.toggle('is-open');
+});
+
+
+/* Onload demo - dirty timeout */
+let clickEvent = new Event('click');
+
+window.addEventListener('load', function(e) {
+  slowmo.dispatchEvent(clickEvent);
+  burger.dispatchEvent(clickEvent);
+
+  setTimeout(function(){
+    burger.dispatchEvent(clickEvent);
+
+    setTimeout(function(){
+      slowmo.dispatchEvent(clickEvent);
+    }, 3500);
+  }, 5500);
+});
+
+
+
+
