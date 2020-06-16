@@ -1,0 +1,47 @@
+// .post {
+//   max-width: 30rem;
+//   margin: 2rem;
+//   float: left;
+
+//   a {
+//   font-size: 4rem;
+//   text-decoration: none;
+//   color: #1e1f23;
+//   text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
+//   }
+// }
+
+// .fun-hover {
+//   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #25b0a9), color-stop(50%, #fee603));
+//   background-image: linear-gradient(to right, #25b0a9 50%, #fee603 50%);
+//   background-position: 0;
+//   background-size: 200%;
+//   -webkit-transition: all 0.4s;
+//   transition: all 0.4s;
+// }
+// .fun-hover:hover {
+//   background-position: -100%;
+// }
+
+// .el {
+//   --highlighter-pen: url('/posts/highlighter-marker-annotations/highlighter.png');
+//   --highlighter-color: cyan;
+//   --highlighter-path: path("M46.83,230.9c24.41,-51.06 455.28,-6.72 465.09,-16.82");
+//   --highlighter-size: 31;
+//   --highlighter-opacity: 1;
+//   --highlighter-smooth: 5.1;
+//   --highlighter-progress: 0;
+//   transition: --highlighter-progress 1650ms linear;
+//   background: paint(highlighter);
+// }
+
+.navbar-logo {
+
+  img {
+    height: 250px;
+    margin-top: 10px;
+  }
+
+}
+
+

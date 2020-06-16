@@ -64,6 +64,8 @@ GEM
     bindex (0.8.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
+    browser_sync_rails (0.1.1)
+      rails
     builder (3.2.4)
     byebug (11.1.3)
     capybara (3.32.2)
@@ -235,6 +237,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootsnap (>= 1.4.2)
+  browser_sync_rails
   byebug
   capybara (>= 2.15)
   devise
