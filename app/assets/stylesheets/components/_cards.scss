@@ -9,11 +9,11 @@
 
 .banner-article {
   margin-right: 18px;
-  width: 60vw;
+  //width: 60vw;
 
-  .col {
-    height: 200px;
-  }
+  // .col {
+  //   height: 200px;
+  // }
 
   img {
     height: 20vh;
@@ -114,4 +114,12 @@ h3.darker {
 .box.three {
   height: 400px;
   background-color: #f4f1bb;
+}
+
+@include media-breakpoint-up(lg) {
+  .banner-article {
+    img {
+      width: 25vw;
+    }
+  }
 }
