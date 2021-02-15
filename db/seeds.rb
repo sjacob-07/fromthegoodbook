@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "nokogiri"
+
+#Scraping Litmos Course
+url = "https://www.pokemon.com/uk/pokedex/#{counter}"
+html_file = open(url).read
+html_doc = Nokogiri::HTML(html_file)
+
+puts()
